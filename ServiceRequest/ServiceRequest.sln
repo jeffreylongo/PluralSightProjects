@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceRequest", "ServiceRequest\ServiceRequest.csproj", "{EDC15F1D-9B67-4F4C-81E7-CE6474F4E71E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDC15F1D-9B67-4F4C-81E7-CE6474F4E71E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDC15F1D-9B67-4F4C-81E7-CE6474F4E71E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDC15F1D-9B67-4F4C-81E7-CE6474F4E71E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDC15F1D-9B67-4F4C-81E7-CE6474F4E71E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD0B5A8A-79C7-4B41-8193-B37AD42E40E6}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://zenisoftware.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ServiceRequest\\ServiceRequest.csproj
+		SccProjectName1 = ServiceRequest
+		SccLocalPath1 = ServiceRequest
+	EndGlobalSection
+EndGlobal
