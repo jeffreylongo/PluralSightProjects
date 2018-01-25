@@ -13,7 +13,7 @@ namespace AppData.Controllers
         public JToken Get(string id = null)
         {
             var path = System.Web.Hosting.HostingEnvironment.MapPath("/");
-            return JObject.Parse(System.IO.File.ReadAllText(path + "../app/data/event" + id + ".json"));
+            return JObject.Parse(System.IO.File.ReadAllText(path + "../app/data/event/" + id + ".json"));
         }
 
         public void Post(string id, JObject eventData)
