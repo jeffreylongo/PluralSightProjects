@@ -10,7 +10,7 @@ using System.Web.Http;
 
 namespace AngularJSAuthentication.API.Controllers
 {
-    [RoutePrefix("api/Account")]
+    //[RoutePrefix("api/account")]
     public class AccountController : ApiController
     {
         private AuthRepository _repo = null;
@@ -21,8 +21,8 @@ namespace AngularJSAuthentication.API.Controllers
         }
 
         //Post api/Account/Register
-        [AllowAnonymous]
-        [Route("Register")]
+        [Route("api/account/register")]
+        [HttpPost]
         public async Task<IHttpActionResult> Register(UserModel userModel)
         {
             if (!ModelState.IsValid)

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJSAuthentication", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJSAuthentication.API", "AngularJSAuthentication.API\AngularJSAuthentication.API.csproj", "{2C0FCE50-D58D-4739-B03A-5FFBD4FBF576}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJSAuthentication.Web", "AngularJSAuthentication.Web\AngularJSAuthentication.Web.csproj", "{369D6AB3-7273-480E-A36D-3D464E8A0A4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2C0FCE50-D58D-4739-B03A-5FFBD4FBF576}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C0FCE50-D58D-4739-B03A-5FFBD4FBF576}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C0FCE50-D58D-4739-B03A-5FFBD4FBF576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{369D6AB3-7273-480E-A36D-3D464E8A0A4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{369D6AB3-7273-480E-A36D-3D464E8A0A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{369D6AB3-7273-480E-A36D-3D464E8A0A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{369D6AB3-7273-480E-A36D-3D464E8A0A4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
