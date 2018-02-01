@@ -9,7 +9,7 @@ using System.Web;
 
 namespace AngularJSAuthentication.API.Providers
 {
-    public class SimpleAuthorizationServerProvider
+    public class SimpleAuthorizationServerProvider : OAuthAuthorizationServerProvider
     {
         public override async Task ValidateClientAuthentication(OAuthValidateClientAuthenticationContext context)
         {
